@@ -53,6 +53,10 @@ https://templatemo.com/tm-566-medic-care
         min-height: 500px;
         max-height: 500px;
     }
+    
+    .site-footer {
+        background: rgb(228, 228, 228);
+    }
 </style>
 
 <body id="top">
@@ -66,15 +70,20 @@ https://templatemo.com/tm-566-medic-care
                 </a>
                 <div class="collapse navbar-collapse m-lg-auto" id="navbarNav">
                     <ul class="navbar-nav mt-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
+                        <div class="btn-group float-md-end" role="group"></div>
+                        <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle bi-filter-left" data-bs-toggle="dropdown" aria-expanded="false">
+                            </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <li class="nav-item">
+                                <a class="nav-link" href="work.html">Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
                     </ul>
                 </div>
-
+                </ul>
             </div>
         </nav>
 
@@ -82,6 +91,13 @@ https://templatemo.com/tm-566-medic-care
             <div class="container m-lg-auto">
                 <div class="row">
                     <div class="col-12">
+                        <div aria-label="breadcrumb">
+                            <ol class="breadcrumb my-lg-5">
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    Home
+                                </li>
+                            </ol>
+                        </div>
                         <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -127,9 +143,9 @@ https://templatemo.com/tm-566-medic-care
             <div class="container">
                 <div class="row">
                     <h2 class="col-5 mb-lg-4 mb-3">MICHELANGELO's Work</h2>
-                    <button type="button" href="#" class="btn btn-dark offset-5 col-1 mb-lg-4 mb-3 mt-auto">
-                        More Work
-                </button>
+                    <a type="button" href="work.html" class="btn btn-dark offset-4 col-2 mb-lg-4 mb-3 mt-auto">
+                        More Work →
+                    </a>
                 </div>
 
                 <div class="row">
@@ -138,7 +154,7 @@ https://templatemo.com/tm-566-medic-care
                         <div class="card-body">
                             <h5 class="card-title">The Creation of Adam - 1512</h5>
                             <p class="card-text">Ceiling Painting in the Sistine Chapel, Vatican City</p>
-                            <a href="#" class="btn btn-dark">More Info</a>
+                            <button href="#" class="btn btn-dark">More Info</button>
                         </div>
                     </div>
                     <div class="card col-lg-5 col-6 m-md-2">
@@ -146,162 +162,53 @@ https://templatemo.com/tm-566-medic-care
                         <div class="card-body">
                             <h5 class="card-title">Tomb of Pope Julius II - 1545</h5>
                             <p class="card-text">Tomb of Pope Julius II</p>
-                            <a href="#" class="btn btn-dark">More Info</a>
-                        </div>
+                            <button href="#" class="btn btn-dark">More Info</button> </div>
                     </div>
                 </div>
 
             </div>
         </section>
 
-        <!--<section class="section-padding pb-0" id="timeline">
-            <div class="container">
+        <section>
+            <div class="container my-lg-5">
                 <div class="row">
-
-                    <h2 class="text-center mb-lg-5 mb-4">MICHELANGELO's Timeline</h2>
-
-                    <div class="timeline">
-                        <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                            <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                <h3 class=" text-light">BIRTH</h3>
-
-                                <p>มีเกลันเจโลเกิดในเมืองกาเปรเซ ครอบครัวของเขาได้ย้ายกลับไปอยู่ในฟลอเรนซ์หลังมีเกลันเจโลเกิด</p>
-                            </div>
-
-                            <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                <i class="bi-person-fill timeline-icon text-black"></i>
-                            </div>
-
-                            <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                <time><h4><b>6 March 1475</b></h4></time>
-                            </div>
-                        </div>
-
-                        <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4">
-                            <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                <h3 class=" text-light">Consulting your health</h3>
-
-                                <p>You are fully permitted to use this template for your commercial or personal website. You are not permitted to redistribute the template ZIP file for a download purpose on any other <a href="https://www.google.com/search?q=free+css"
-                                        target="_blank">Free
-                                        CSS collection</a> website.</p>
-                            </div>
-
-                            <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                <i class="bi-book timeline-icon"></i>
-                            </div>
-
-                            <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                <time>2021-07-15 Thursday</time>
-                            </div>
-                        </div>
-
-                        <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                            <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                <h3 class=" text-light">Certified Nurses</h3>
-
-                                <p>Phasellus eleifend, urna interdum congue viverra, arcu neque ultrices ligula, id pulvinar nisi nibh et lacus. Vivamus gravida, ipsum non euismod tincidunt, sapien elit fermentum mi, quis iaculis enim ligula at arcu.</p>
-                            </div>
-
-                            <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                <i class="bi-file-medical timeline-icon"></i>
-                            </div>
-
-                            <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                <time>2021-06-28 Monday</time>
-                            </div>
-                        </div>
-
-                        <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4">
-                            <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                <h3 class=" text-light">Covid-19 Hospitals</h3>
-
-                                <p class="mb-0 pb-0">Fusce vestibulum euismod nulla sed ultrices. Praesent rutrum nulla vel sapien euismod, quis tempus dui placerat.</p>
-
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla</p>
-                            </div>
-
-                            <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                <i class="bi-globe timeline-icon"></i>
-                            </div>
-
-                            <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                <time>2021-05-30 Sunday</time>
-                            </div>
-                        </div>
-
-                        <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                            <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                <h3 class=" text-light">Freelance Nursing</h3>
-
-                                <p>If you need a working contact form that submits email to your inbox, please <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">visit our
-                                        contact page</a> for more information.</p>
-                            </div>
-
-                            <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                <i class="bi-person timeline-icon"></i>
-                            </div>
-
-                            <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                <time>2021-05-18 Tuesday</time>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <section class="section-padding" id="booking">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-8 col-12 mx-auto">
-                        <div class="booking-form">
-
-                            <h2 class="text-center mb-lg-3 mb-2">Book an appointment</h2>
-
-                            <form role="form" action="#booking" method="post">
-                                <div class="row">
-                                    <div class="col-lg-6 col-12">
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12">
-                                        <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12">
-                                        <input type="telephone" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="Phone: 123-456-7890">
-                                    </div>
-
-                                    <div class="col-lg-6 col-12">
-                                        <input type="date" name="date" id="date" value="" class="form-control">
-
-                                    </div>
-
-                                    <div class="col-12">
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Additional Message"></textarea>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                                        <button type="submit" class="form-control" id="submit-button">Book Now</button>
-                                    </div>
+                    <div class="accordion col-7 mx-auto" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Refer
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item d-flex">
+                                            <a class="bnt-light" href="https://en.wikipedia.org/wiki/Michelangelo">&nbsp;&nbsp;&nbsp;Biography 1</a></br>
+                                        </li>
+                                        <li class="list-group-item d-flex">
+                                            <a class="bnt-light" href="https://th.wikipedia.org/wiki/%E0%B8%A1%E0%B8%B5%E0%B9%80%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%99%E0%B9%80%E0%B8%88%E0%B9%82%E0%B8%A5">&nbsp;&nbsp;&nbsp;Biography 2</a></br>
+                                        </li>
+                                        <li class="list-group-item d-flex">
+                                            <a class="bnt-light" href="https://www.britannica.com/biography/Michelangelo">&nbsp;&nbsp;&nbsp;Biography 3</a></br>
+                                        </li>
+                                        <li class="list-group-item d-flex">
+                                            <a class="bnt-light" href="https://en.wikipedia.org/wiki/List_of_works_by_Michelangelo">&nbsp;&nbsp;&nbsp;List of Works</a></br>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </form>
-
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-        </section>-->
+        </section>
 
     </main>
 
     <footer class="site-footer section-padding">
         <div class="container">
             <div class="row">
-                <div class=" col-lg-5 me-auto col-12">
+                <div class=" col-lg-6 me-auto col-12 my-auto">
                     <h5 class="mb-lg-6 mb-3">More Artist</h5>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item d-flex">
@@ -315,7 +222,7 @@ https://templatemo.com/tm-566-medic-care
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-5 me-auto col-12">
+                <div class="col-lg-6 me-auto col-12">
                     <h5 class="mb-lg-6 mb-3">Socials</h5>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item d-flex">
@@ -327,10 +234,13 @@ https://templatemo.com/tm-566-medic-care
                         <li class="list-group-item d-flex">
                             <a href="#" class="bi-instagram">&nbsp;&nbsp;&nbsp;@ArtMuse_Official</a>
                         </li>
+                        <li class="list-group-item d-flex">
+                            <a href="#" class="bi-envelope">&nbsp;&nbsp;&nbsp;@artmuse.official@email.com</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            </section>
+        </div>
     </footer>
 
     <!-- JAVASCRIPT FILES -->
